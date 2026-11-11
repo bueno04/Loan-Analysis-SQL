@@ -1,0 +1,6 @@
+aging_bucket,contracts,open_installments,open_amount,pct_of_open_amount
+Current,550,12250,80051932.92,94.98
+1-30 days,52,52,399553.88,0.47
+31-60 days,28,28,204729.68,0.24
+61-90 days,20,20,174083.37,0.21
+90+ days,61,389,3452706.53,4.1

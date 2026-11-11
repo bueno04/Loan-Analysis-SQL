@@ -1,0 +1,801 @@
+contract_id,customer_id,product_type,equipment_type,origination_date,term_months,financed_amount,annual_interest_rate,status
+1001,72,Installment Loan,Mower,2023-04-03,12,133667.79,0.1329,Closed
+1002,120,Lease,Backhoe,2024-11-03,24,414727.53,0.1155,Active
+1003,288,Installment Loan,Backhoe,2026-02-24,36,267536.95,0.1275,Active
+1004,74,Installment Loan,Sprayer,2026-03-05,48,209043.63,0.0991,Active
+1005,29,Installment Loan,Tractor,2023-01-16,24,153408.27,0.1127,Closed
+1006,189,Lease,Tractor,2024-08-10,12,70339.57,0.1715,Closed
+1007,44,Lease,Tractor,2024-09-26,60,108090.14,0.1544,Active
+1008,51,Installment Loan,Mower,2024-11-17,24,117819.85,0.1066,Active
+1009,170,Lease,Wheel Loader,2024-07-13,12,343599.44,0.118,Closed
+1010,74,Installment Loan,Planter,2026-05-29,48,312516.29,0.0977,Active
+1011,134,Installment Loan,Planter,2025-07-02,24,461643.78,0.1125,Active
+1012,166,Installment Loan,Backhoe,2024-04-06,36,517823.0,0.1685,Active
+1013,67,Installment Loan,Excavator,2025-01-28,60,218207.2,0.174,Active
+1014,154,Installment Loan,Compact Tractor,2026-04-30,36,201865.57,0.1198,Active
+1015,57,Installment Loan,Mower,2024-01-26,12,179078.88,0.0983,Closed
+1016,41,Installment Loan,Sprayer,2024-12-10,48,375274.83,0.1664,Active
+1017,208,Installment Loan,Excavator,2025-05-25,60,147914.97,0.0919,Active
+1018,251,Installment Loan,Planter,2023-07-06,60,187320.9,0.0926,Active
+1019,97,Lease,Compact Tractor,2026-04-18,60,137559.16,0.1281,Active
+1020,241,Installment Loan,Sprayer,2024-10-17,24,158406.31,0.1013,Closed
+1021,5,Lease,Tractor,2023-12-17,12,198737.97,0.1535,Closed
+1022,168,Installment Loan,Combine Harvester,2023-03-02,36,338130.58,0.0946,Closed
+1023,128,Installment Loan,Sprayer,2024-12-28,24,232890.24,0.1895,Active
+1024,201,Lease,Sprayer,2026-04-17,12,72165.7,0.1223,Active
+1025,251,Installment Loan,Planter,2024-08-14,24,495828.37,0.109,Closed
+1026,127,Installment Loan,Excavator,2025-03-15,48,72987.21,0.1488,Active
+1027,228,Installment Loan,Tractor,2023-01-20,12,597689.83,0.1596,Closed
+1028,14,Installment Loan,Combine Harvester,2024-09-09,24,206333.35,0.1824,Closed
+1029,53,Installment Loan,Planter,2026-03-21,12,112514.65,0.1109,Active
+1030,36,Installment Loan,Mower,2025-08-10,36,299075.49,0.1326,Active
+1031,291,Lease,Wheel Loader,2023-05-08,48,240950.71,0.1688,Active
+1032,15,Lease,Mower,2024-12-21,60,230927.03,0.0938,Active
+1033,180,Installment Loan,Planter,2024-06-09,12,252294.26,0.1188,Closed
+1034,153,Installment Loan,Wheel Loader,2024-05-01,12,67338.0,0.1068,Closed
+1035,244,Installment Loan,Compact Tractor,2026-03-18,24,193584.97,0.1571,Active
+1036,268,Lease,Tractor,2025-05-09,12,179263.5,0.1218,Closed
+1037,214,Lease,Wheel Loader,2026-05-23,12,132281.08,0.1265,Active
+1038,185,Installment Loan,Combine Harvester,2024-02-12,36,154366.41,0.0979,Active
+1039,151,Installment Loan,Compact Tractor,2025-08-07,12,158420.99,0.1017,Closed
+1040,98,Installment Loan,Planter,2023-02-06,12,236474.48,0.1239,Closed
+1041,79,Installment Loan,Compact Tractor,2024-02-25,12,108546.87,0.1032,Closed
+1042,149,Installment Loan,Excavator,2025-01-07,36,182378.51,0.1555,Active
+1043,143,Installment Loan,Mower,2023-04-14,60,89302.53,0.0981,Active
+1044,278,Lease,Planter,2023-03-08,36,284970.09,0.1074,Closed
+1045,209,Installment Loan,Backhoe,2025-03-05,48,251803.27,0.1103,Active
+1046,183,Installment Loan,Backhoe,2023-09-20,24,67373.67,0.128,Closed
+1047,233,Lease,Mower,2023-04-06,12,413267.66,0.1241,Closed
+1048,69,Installment Loan,Planter,2025-11-15,12,318539.48,0.1133,Active
+1049,273,Installment Loan,Mower,2025-10-27,12,58140.56,0.128,Closed
+1050,204,Installment Loan,Sprayer,2024-02-22,48,224407.87,0.0936,Active
+1051,5,Installment Loan,Combine Harvester,2024-06-23,24,138100.72,0.1525,Closed
+1052,295,Installment Loan,Combine Harvester,2024-04-13,12,634223.26,0.1211,Closed
+1053,196,Lease,Planter,2026-06-10,36,84155.31,0.1074,Active
+1054,228,Installment Loan,Combine Harvester,2025-01-13,60,206736.73,0.135,Active
+1055,4,Lease,Combine Harvester,2026-01-27,36,182352.21,0.1243,Active
+1056,120,Installment Loan,Excavator,2023-07-04,24,135519.31,0.12,Closed
+1057,240,Installment Loan,Sprayer,2024-07-17,60,517971.51,0.1114,Active
+1058,282,Installment Loan,Backhoe,2024-10-26,36,155436.06,0.1065,Active
+1059,44,Installment Loan,Planter,2025-03-27,60,159025.45,0.1529,Active
+1060,5,Installment Loan,Sprayer,2023-05-17,48,324424.59,0.1574,Active
+1061,126,Installment Loan,Excavator,2025-11-28,60,132491.15,0.1467,Active
+1062,186,Installment Loan,Backhoe,2023-06-24,60,434157.33,0.1295,Active
+1063,212,Installment Loan,Sprayer,2023-04-25,60,93811.96,0.1395,Active
+1064,208,Installment Loan,Excavator,2023-08-08,36,211548.17,0.096,Closed
+1065,138,Installment Loan,Backhoe,2025-04-21,60,215628.35,0.1108,Active
+1066,271,Installment Loan,Planter,2023-03-09,36,345119.02,0.1268,Closed
+1067,169,Lease,Excavator,2025-03-12,60,339252.97,0.0981,Active
+1068,73,Installment Loan,Combine Harvester,2025-09-28,12,138502.87,0.1314,Closed
+1069,193,Lease,Planter,2023-11-20,12,335640.43,0.1385,Closed
+1070,187,Installment Loan,Tractor,2024-08-06,24,179690.1,0.1261,Closed
+1071,21,Lease,Planter,2025-08-21,60,71408.27,0.1444,Active
+1072,188,Installment Loan,Combine Harvester,2025-08-11,60,94285.93,0.123,Active
+1073,278,Installment Loan,Combine Harvester,2023-09-28,48,149682.14,0.1029,Active
+1074,210,Installment Loan,Planter,2024-07-13,48,106708.65,0.1014,Active
+1075,156,Installment Loan,Tractor,2023-02-28,12,123504.44,0.1125,Closed
+1076,51,Installment Loan,Compact Tractor,2024-03-14,60,395687.73,0.104,Active
+1077,17,Installment Loan,Backhoe,2025-05-31,12,166916.45,0.1713,Closed
+1078,160,Installment Loan,Planter,2026-04-28,12,146803.78,0.0904,Active
+1079,154,Lease,Compact Tractor,2025-01-14,48,85641.13,0.1295,Active
+1080,224,Installment Loan,Backhoe,2025-05-14,12,130383.18,0.0906,Closed
+1081,226,Installment Loan,Combine Harvester,2025-04-16,36,222947.41,0.1123,Active
+1082,228,Installment Loan,Combine Harvester,2023-10-06,12,150981.74,0.1394,Active
+1083,213,Installment Loan,Compact Tractor,2025-01-22,24,166698.37,0.1267,Active
+1084,287,Installment Loan,Tractor,2023-03-26,60,133577.94,0.0999,Active
+1085,66,Installment Loan,Compact Tractor,2024-09-07,24,205610.32,0.111,Closed
+1086,5,Installment Loan,Planter,2023-07-30,48,363593.42,0.1466,Active
+1087,265,Installment Loan,Mower,2025-01-10,12,153714.64,0.1044,Closed
+1088,283,Installment Loan,Wheel Loader,2024-10-01,60,126746.78,0.1307,Active
+1089,79,Installment Loan,Mower,2023-08-30,36,144207.21,0.0959,Closed
+1090,257,Installment Loan,Tractor,2024-02-21,24,372393.36,0.1185,Closed
+1091,156,Installment Loan,Planter,2024-03-28,24,77644.74,0.1241,Closed
+1092,32,Lease,Wheel Loader,2023-03-10,48,56281.3,0.1113,Active
+1093,192,Installment Loan,Sprayer,2024-10-13,60,162864.83,0.1876,Active
+1094,141,Installment Loan,Sprayer,2024-01-26,60,539541.87,0.1082,Active
+1095,251,Installment Loan,Sprayer,2023-02-24,24,171458.54,0.0958,Closed
+1096,130,Installment Loan,Combine Harvester,2024-02-29,60,308862.61,0.1192,Active
+1097,247,Lease,Tractor,2023-05-19,36,178520.02,0.1523,Closed
+1098,290,Installment Loan,Mower,2023-11-29,24,611692.14,0.1405,Closed
+1099,52,Lease,Planter,2023-01-20,12,445646.21,0.1108,Closed
+1100,249,Installment Loan,Tractor,2025-03-30,60,316258.44,0.1088,Active
+1101,66,Installment Loan,Mower,2024-10-03,48,75277.46,0.1269,Active
+1102,76,Installment Loan,Tractor,2025-02-10,48,248217.81,0.1617,Active
+1103,64,Installment Loan,Sprayer,2025-11-02,36,146053.47,0.1427,Active
+1104,218,Installment Loan,Mower,2023-10-21,60,87277.48,0.0954,Active
+1105,27,Installment Loan,Tractor,2025-05-15,48,162986.99,0.1123,Active
+1106,137,Lease,Wheel Loader,2023-09-01,48,194403.74,0.1505,Active
+1107,35,Installment Loan,Compact Tractor,2025-09-15,48,332478.67,0.1058,Active
+1108,108,Installment Loan,Combine Harvester,2025-12-30,12,235996.23,0.1117,Active
+1109,236,Installment Loan,Combine Harvester,2024-01-14,24,106021.48,0.1246,Closed
+1110,218,Installment Loan,Mower,2023-11-04,36,238019.45,0.1075,Active
+1111,206,Lease,Planter,2026-06-21,12,139463.28,0.1049,Active
+1112,109,Installment Loan,Sprayer,2026-05-07,12,291321.26,0.101,Active
+1113,50,Installment Loan,Planter,2024-11-09,48,452324.51,0.1,Active
+1114,30,Lease,Tractor,2024-05-16,60,153895.19,0.172,Active
+1115,2,Lease,Combine Harvester,2025-07-11,24,291507.25,0.1016,Active
+1116,258,Installment Loan,Compact Tractor,2026-04-05,12,636716.17,0.1142,Active
+1117,17,Installment Loan,Wheel Loader,2023-02-01,12,112384.78,0.1845,Closed
+1118,41,Installment Loan,Combine Harvester,2026-03-17,48,282449.9,0.1796,Active
+1119,252,Installment Loan,Tractor,2023-02-14,48,164874.05,0.1282,Active
+1120,63,Lease,Mower,2025-02-04,60,117366.16,0.1065,Active
+1121,259,Installment Loan,Planter,2023-08-05,24,126137.75,0.1295,Closed
+1122,73,Installment Loan,Tractor,2023-01-27,48,184283.66,0.1592,Active
+1123,216,Installment Loan,Mower,2023-07-01,24,235623.17,0.0949,Closed
+1124,218,Installment Loan,Mower,2023-10-31,12,154297.42,0.0978,Closed
+1125,166,Lease,Excavator,2026-04-20,60,132091.12,0.1721,Active
+1126,227,Installment Loan,Compact Tractor,2025-02-05,60,228489.43,0.0935,Active
+1127,31,Lease,Combine Harvester,2023-10-13,24,238499.52,0.1577,Closed
+1128,188,Installment Loan,Tractor,2026-02-03,36,328568.88,0.1279,Active
+1129,197,Installment Loan,Tractor,2025-10-11,12,364701.82,0.1613,Active
+1130,175,Installment Loan,Backhoe,2026-06-26,48,403654.75,0.109,Active
+1131,152,Lease,Tractor,2024-11-22,60,149912.93,0.0972,Active
+1132,14,Lease,Sprayer,2023-08-06,60,129010.6,0.1815,Active
+1133,22,Installment Loan,Sprayer,2024-03-07,48,208221.65,0.1785,Active
+1134,5,Installment Loan,Planter,2024-05-18,24,398298.41,0.1366,Closed
+1135,57,Lease,Compact Tractor,2026-06-10,60,127544.88,0.0904,Active
+1136,118,Lease,Tractor,2024-08-17,24,374108.95,0.1143,Closed
+1137,268,Lease,Tractor,2026-03-06,24,81129.56,0.1182,Active
+1138,63,Installment Loan,Mower,2023-12-07,24,87206.95,0.0934,Closed
+1139,244,Installment Loan,Mower,2023-01-01,36,171899.76,0.1391,Closed
+1140,238,Installment Loan,Excavator,2023-06-30,12,336488.63,0.0917,Closed
+1141,300,Lease,Mower,2025-02-28,24,208873.95,0.124,Active
+1142,171,Installment Loan,Excavator,2023-04-21,12,85962.65,0.154,Closed
+1143,92,Installment Loan,Excavator,2024-04-26,36,149590.67,0.13,Active
+1144,177,Installment Loan,Wheel Loader,2025-07-27,60,50000,0.1267,Active
+1145,67,Installment Loan,Wheel Loader,2024-07-16,36,165326.69,0.179,Active
+1146,64,Lease,Planter,2023-07-18,48,217217.57,0.1348,Active
+1147,134,Installment Loan,Tractor,2024-12-02,36,265918.41,0.119,Active
+1148,284,Lease,Backhoe,2025-12-31,60,69230.73,0.115,Active
+1149,154,Lease,Compact Tractor,2026-03-11,12,364290.79,0.1122,Active
+1150,164,Installment Loan,Planter,2025-11-09,48,197742.41,0.1252,Active
+1151,162,Installment Loan,Mower,2025-07-10,36,175117.27,0.1425,Active
+1152,78,Installment Loan,Sprayer,2026-04-22,36,236580.75,0.0988,Active
+1153,133,Installment Loan,Backhoe,2024-06-06,60,102207.43,0.0979,Active
+1154,297,Installment Loan,Sprayer,2025-11-23,12,128150.48,0.1288,Active
+1155,32,Installment Loan,Excavator,2026-05-06,24,604519.07,0.1174,Active
+1156,209,Installment Loan,Excavator,2023-04-06,60,145038.72,0.1205,Active
+1157,143,Lease,Mower,2023-04-11,48,191353.31,0.1088,Active
+1158,186,Lease,Wheel Loader,2024-05-09,48,159093.93,0.1273,Active
+1159,87,Installment Loan,Combine Harvester,2024-10-23,12,76391.69,0.1082,Closed
+1160,266,Lease,Mower,2026-04-04,48,644260.76,0.1096,Active
+1161,54,Lease,Wheel Loader,2026-05-22,24,443370.97,0.1229,Active
+1162,182,Installment Loan,Combine Harvester,2023-05-14,36,777411.22,0.1046,Closed
+1163,252,Lease,Tractor,2024-01-21,48,516876.67,0.1269,Active
+1164,275,Installment Loan,Backhoe,2024-11-01,24,367322.0,0.1236,Active
+1165,199,Installment Loan,Planter,2026-03-07,12,69366.18,0.1104,Active
+1166,222,Lease,Combine Harvester,2024-09-06,24,89450.12,0.1864,Closed
+1167,162,Installment Loan,Compact Tractor,2026-04-09,48,182313.7,0.1387,Active
+1168,11,Lease,Sprayer,2026-04-15,36,578722.07,0.0936,Active
+1169,187,Lease,Tractor,2024-06-01,24,428963.77,0.1281,Active
+1170,164,Installment Loan,Combine Harvester,2025-11-08,12,283882.99,0.1135,Active
+1171,32,Lease,Backhoe,2025-06-25,24,200482.36,0.1295,Active
+1172,98,Installment Loan,Planter,2024-04-12,60,66373.44,0.1182,Active
+1173,200,Installment Loan,Tractor,2024-01-31,36,280082.3,0.1056,Active
+1174,213,Installment Loan,Mower,2026-01-31,12,96930.14,0.1101,Active
+1175,106,Installment Loan,Sprayer,2024-02-14,60,280941.68,0.1038,Active
+1176,25,Installment Loan,Sprayer,2024-08-09,36,101764.03,0.1264,Active
+1177,13,Installment Loan,Planter,2023-02-03,12,152496.64,0.1066,Closed
+1178,49,Installment Loan,Planter,2025-07-20,48,278708.12,0.1297,Active
+1179,188,Installment Loan,Planter,2025-05-30,12,147712.98,0.1184,Active
+1180,201,Installment Loan,Combine Harvester,2023-01-23,36,60288.91,0.1217,Active
+1181,201,Lease,Planter,2025-07-10,60,310702.92,0.1282,Active
+1182,172,Installment Loan,Combine Harvester,2025-11-26,48,112785.83,0.1234,Active
+1183,216,Installment Loan,Mower,2024-02-12,36,88647.5,0.1096,Active
+1184,229,Installment Loan,Combine Harvester,2025-05-18,12,180065.98,0.0954,Closed
+1185,40,Installment Loan,Mower,2023-05-18,12,66420.42,0.146,Closed
+1186,239,Installment Loan,Planter,2025-11-30,36,399376.18,0.1068,Active
+1187,27,Installment Loan,Planter,2024-05-17,24,159150.74,0.1193,Closed
+1188,133,Installment Loan,Excavator,2026-03-27,60,327725.76,0.1048,Active
+1189,113,Installment Loan,Sprayer,2024-05-24,48,299881.22,0.1424,Active
+1190,121,Installment Loan,Tractor,2024-09-25,36,114341.42,0.1041,Active
+1191,10,Lease,Backhoe,2025-04-14,60,372577.39,0.0995,Active
+1192,278,Lease,Sprayer,2026-01-28,12,629063.21,0.0954,Active
+1193,54,Lease,Excavator,2025-11-15,48,137917.83,0.1227,Active
+1194,275,Installment Loan,Wheel Loader,2025-05-21,36,50000,0.1296,Active
+1195,9,Installment Loan,Combine Harvester,2025-08-21,24,260303.39,0.1048,Active
+1196,108,Installment Loan,Tractor,2023-08-15,12,173614.73,0.1189,Closed
+1197,142,Lease,Backhoe,2025-09-03,48,125958.07,0.0988,Active
+1198,242,Installment Loan,Planter,2024-02-06,24,55894.95,0.1171,Closed
+1199,222,Installment Loan,Planter,2023-11-12,12,299047.35,0.1713,Active
+1200,86,Installment Loan,Sprayer,2024-06-29,60,273932.5,0.1478,Active
+1201,181,Installment Loan,Combine Harvester,2024-10-02,48,471281.65,0.1001,Active
+1202,33,Installment Loan,Backhoe,2025-03-29,36,88308.73,0.1128,Active
+1203,175,Lease,Excavator,2023-03-18,36,243784.96,0.1071,Closed
+1204,50,Lease,Tractor,2023-08-27,24,121433.68,0.1088,Closed
+1205,268,Installment Loan,Sprayer,2024-08-28,24,210505.99,0.1177,Closed
+1206,62,Lease,Backhoe,2024-05-30,24,319503.9,0.1345,Closed
+1207,274,Installment Loan,Combine Harvester,2024-06-22,12,188690.64,0.164,Closed
+1208,221,Installment Loan,Compact Tractor,2024-07-18,36,132576.74,0.092,Active
+1209,9,Installment Loan,Planter,2023-11-21,24,166011.67,0.1021,Closed
+1210,181,Lease,Sprayer,2026-06-06,36,129387.24,0.109,Active
+1211,173,Installment Loan,Backhoe,2025-09-16,24,380364.22,0.135,Active
+1212,168,Installment Loan,Tractor,2024-02-19,12,139671.23,0.1024,Closed
+1213,167,Lease,Combine Harvester,2026-04-10,60,139534.85,0.1208,Active
+1214,220,Installment Loan,Combine Harvester,2024-11-11,12,326037.02,0.0946,Closed
+1215,148,Lease,Combine Harvester,2024-03-04,12,227886.29,0.1652,Closed
+1216,284,Installment Loan,Wheel Loader,2024-05-08,12,155505.92,0.1136,Closed
+1217,253,Installment Loan,Sprayer,2024-03-24,24,310758.74,0.1583,Closed
+1218,262,Installment Loan,Compact Tractor,2024-01-30,12,229475.01,0.1101,Closed
+1219,107,Lease,Tractor,2026-01-03,12,269146.86,0.1863,Active
+1220,110,Lease,Combine Harvester,2026-03-11,60,96613.96,0.1017,Active
+1221,186,Installment Loan,Wheel Loader,2026-06-11,24,189448.07,0.1156,Active
+1222,134,Installment Loan,Sprayer,2023-11-21,12,73981.2,0.1157,Closed
+1223,217,Installment Loan,Combine Harvester,2025-11-23,12,218498.21,0.1262,Active
+1224,103,Lease,Planter,2026-05-28,48,184162.85,0.1406,Active
+1225,130,Installment Loan,Sprayer,2023-03-18,12,281432.64,0.1147,Closed
+1226,90,Installment Loan,Tractor,2024-10-22,48,57500.67,0.1093,Active
+1227,217,Installment Loan,Planter,2026-02-20,60,53414.41,0.1178,Active
+1228,24,Installment Loan,Sprayer,2026-05-23,48,265672.81,0.1222,Active
+1229,114,Installment Loan,Sprayer,2024-06-28,60,141645.7,0.1146,Active
+1230,260,Installment Loan,Compact Tractor,2025-02-19,60,104899.86,0.1152,Active
+1231,15,Lease,Compact Tractor,2026-03-15,48,302715.0,0.0964,Active
+1232,93,Installment Loan,Sprayer,2025-07-14,48,496951.24,0.1797,Active
+1233,246,Installment Loan,Planter,2024-12-01,24,156832.1,0.1246,Active
+1234,100,Installment Loan,Compact Tractor,2023-03-09,48,341451.27,0.1369,Active
+1235,51,Installment Loan,Compact Tractor,2023-03-13,12,50642.7,0.0903,Closed
+1236,281,Installment Loan,Wheel Loader,2024-02-19,36,217354.76,0.1518,Active
+1237,70,Installment Loan,Tractor,2024-07-24,48,603323.82,0.1077,Active
+1238,110,Lease,Planter,2025-01-07,48,68610.73,0.1065,Active
+1239,28,Installment Loan,Wheel Loader,2023-12-29,24,250692.84,0.1024,Closed
+1240,184,Installment Loan,Mower,2024-12-09,24,167363.95,0.0978,Active
+1241,125,Installment Loan,Backhoe,2023-01-29,24,160375.15,0.1259,Closed
+1242,193,Installment Loan,Sprayer,2026-05-31,24,203002.85,0.157,Active
+1243,80,Lease,Compact Tractor,2023-05-02,36,110525.17,0.1097,Closed
+1244,193,Installment Loan,Planter,2023-12-09,48,161383.88,0.155,Active
+1245,30,Installment Loan,Combine Harvester,2025-01-16,60,138638.67,0.1885,Active
+1246,61,Lease,Backhoe,2024-06-28,24,50000,0.1157,Closed
+1247,78,Lease,Combine Harvester,2025-09-17,24,255973.75,0.0937,Active
+1248,98,Lease,Sprayer,2025-12-05,60,152241.79,0.1239,Active
+1249,253,Installment Loan,Sprayer,2025-06-09,36,208431.63,0.1421,Active
+1250,37,Installment Loan,Backhoe,2024-03-26,48,73971.24,0.1202,Active
+1251,234,Installment Loan,Sprayer,2024-08-04,48,188525.65,0.1463,Active
+1252,270,Lease,Backhoe,2026-02-23,24,146535.15,0.1221,Active
+1253,65,Installment Loan,Tractor,2023-03-18,24,312494.55,0.1714,Active
+1254,73,Installment Loan,Planter,2026-03-11,36,148393.84,0.1315,Active
+1255,82,Installment Loan,Compact Tractor,2024-02-12,24,234696.95,0.0927,Closed
+1256,241,Installment Loan,Sprayer,2023-10-31,36,216756.52,0.0936,Closed
+1257,184,Installment Loan,Mower,2026-03-07,24,158494.05,0.0928,Active
+1258,93,Installment Loan,Sprayer,2023-03-29,48,164312.41,0.1678,Active
+1259,105,Lease,Backhoe,2024-03-15,48,136452.2,0.1001,Active
+1260,293,Installment Loan,Compact Tractor,2024-08-05,48,88854.8,0.1451,Active
+1261,83,Installment Loan,Wheel Loader,2025-04-28,12,122349.72,0.1038,Closed
+1262,200,Installment Loan,Combine Harvester,2024-09-13,60,72084.0,0.0974,Active
+1263,119,Installment Loan,Tractor,2025-09-27,60,208025.27,0.1125,Active
+1264,196,Lease,Tractor,2025-10-13,12,306950.03,0.0976,Closed
+1265,235,Lease,Sprayer,2026-04-08,36,171907.37,0.1075,Active
+1266,232,Lease,Mower,2023-06-17,48,94465.96,0.1774,Active
+1267,123,Installment Loan,Sprayer,2025-08-23,48,83525.2,0.1299,Active
+1268,206,Installment Loan,Sprayer,2024-06-16,60,303606.23,0.0901,Active
+1269,74,Installment Loan,Planter,2023-10-23,36,216365.63,0.1017,Closed
+1270,12,Installment Loan,Wheel Loader,2024-03-02,24,159842.58,0.1395,Closed
+1271,5,Installment Loan,Sprayer,2023-12-11,12,418485.76,0.1523,Closed
+1272,281,Installment Loan,Wheel Loader,2025-05-20,48,372052.46,0.1477,Active
+1273,229,Installment Loan,Combine Harvester,2026-05-06,36,211857.45,0.0914,Active
+1274,170,Installment Loan,Wheel Loader,2023-08-08,60,100752.57,0.1114,Active
+1275,183,Installment Loan,Wheel Loader,2023-12-02,36,61821.89,0.1103,Active
+1276,2,Installment Loan,Planter,2025-08-23,24,407053.98,0.0911,Active
+1277,196,Installment Loan,Sprayer,2026-02-03,36,321990.22,0.1033,Active
+1278,58,Installment Loan,Excavator,2026-06-23,60,484930.65,0.0958,Active
+1279,187,Lease,Sprayer,2026-01-31,48,280017.9,0.1259,Active
+1280,191,Lease,Tractor,2026-02-26,48,200878.32,0.1378,Active
+1281,135,Installment Loan,Combine Harvester,2025-09-11,60,185360.3,0.1143,Active
+1282,112,Installment Loan,Excavator,2025-12-19,48,800250.33,0.1021,Active
+1283,238,Lease,Excavator,2025-10-20,36,164298.1,0.107,Active
+1284,54,Lease,Backhoe,2025-05-20,60,293050.82,0.128,Active
+1285,282,Lease,Wheel Loader,2024-10-27,12,258359.93,0.1021,Closed
+1286,280,Lease,Wheel Loader,2023-01-21,12,304015.09,0.1652,Active
+1287,127,Lease,Wheel Loader,2024-02-27,24,170606.64,0.1543,Closed
+1288,205,Installment Loan,Backhoe,2024-05-30,48,173053.02,0.1253,Active
+1289,42,Lease,Backhoe,2026-04-14,48,132533.82,0.0937,Active
+1290,292,Installment Loan,Backhoe,2026-03-20,24,313837.82,0.1482,Active
+1291,126,Installment Loan,Backhoe,2025-01-29,24,208666.66,0.1348,Active
+1292,93,Installment Loan,Tractor,2023-04-03,36,163828.59,0.163,Closed
+1293,203,Lease,Tractor,2025-09-16,48,236716.99,0.1421,Active
+1294,288,Installment Loan,Excavator,2025-05-15,12,214808.15,0.1245,Active
+1295,4,Installment Loan,Tractor,2025-12-29,48,321086.47,0.1152,Active
+1296,276,Lease,Wheel Loader,2023-08-17,48,161173.29,0.1602,Active
+1297,143,Installment Loan,Mower,2023-02-03,24,201207.15,0.097,Closed
+1298,207,Installment Loan,Compact Tractor,2023-01-21,12,109138.95,0.1232,Closed
+1299,249,Lease,Planter,2025-05-23,48,348083.92,0.1024,Active
+1300,265,Installment Loan,Mower,2025-09-18,24,154134.59,0.0959,Active
+1301,49,Installment Loan,Tractor,2024-10-19,48,82876.1,0.1224,Active
+1302,145,Installment Loan,Sprayer,2024-03-31,12,173113.28,0.1207,Closed
+1303,296,Lease,Combine Harvester,2024-07-11,48,422372.03,0.1416,Active
+1304,281,Lease,Wheel Loader,2026-05-04,48,156206.29,0.1363,Active
+1305,217,Lease,Planter,2023-03-04,48,79673.52,0.1228,Active
+1306,5,Installment Loan,Planter,2025-09-16,36,156100.84,0.1403,Active
+1307,20,Installment Loan,Wheel Loader,2025-08-26,36,260503.13,0.1199,Active
+1308,107,Lease,Sprayer,2023-10-20,48,328563.93,0.1665,Active
+1309,103,Installment Loan,Sprayer,2024-06-07,60,253896.29,0.144,Active
+1310,171,Lease,Backhoe,2023-04-10,60,254374.05,0.1309,Active
+1311,74,Installment Loan,Combine Harvester,2024-03-26,48,69930.17,0.1089,Active
+1312,252,Installment Loan,Combine Harvester,2024-11-02,48,202677.43,0.1204,Active
+1313,256,Lease,Compact Tractor,2025-11-02,24,358002.17,0.1089,Active
+1314,200,Installment Loan,Planter,2023-12-28,12,128963.89,0.0971,Closed
+1315,218,Installment Loan,Compact Tractor,2024-12-13,12,247300.46,0.0977,Closed
+1316,156,Lease,Sprayer,2024-07-19,48,114301.44,0.1223,Active
+1317,275,Installment Loan,Excavator,2025-09-10,24,116183.06,0.1117,Active
+1318,87,Installment Loan,Combine Harvester,2024-08-13,12,87285.0,0.0907,Closed
+1319,82,Installment Loan,Mower,2024-05-13,60,50000,0.0982,Active
+1320,169,Lease,Excavator,2025-10-21,48,107117.27,0.0983,Active
+1321,204,Installment Loan,Combine Harvester,2024-02-07,60,709437.28,0.0988,Active
+1322,63,Lease,Compact Tractor,2024-02-15,36,200341.35,0.0966,Active
+1323,239,Installment Loan,Planter,2026-04-10,60,257543.45,0.1004,Active
+1324,45,Installment Loan,Mower,2025-07-22,24,174386.38,0.1496,Active
+1325,184,Lease,Mower,2026-05-26,60,220034.41,0.0955,Active
+1326,85,Installment Loan,Mower,2025-12-22,60,338649.99,0.1635,Active
+1327,287,Installment Loan,Planter,2023-02-21,24,182099.06,0.0923,Closed
+1328,170,Installment Loan,Wheel Loader,2024-12-01,24,423646.32,0.1122,Active
+1329,32,Installment Loan,Excavator,2023-01-05,12,239015.67,0.1216,Closed
+1330,54,Installment Loan,Excavator,2023-06-14,48,466443.04,0.1184,Active
+1331,215,Installment Loan,Planter,2024-10-31,48,209456.72,0.0922,Active
+1332,279,Installment Loan,Planter,2024-02-21,24,602030.11,0.1176,Closed
+1333,20,Installment Loan,Backhoe,2023-11-13,48,475130.47,0.1181,Active
+1334,66,Installment Loan,Compact Tractor,2025-09-11,60,341569.17,0.1256,Active
+1335,145,Lease,Combine Harvester,2023-10-11,48,267010.28,0.1256,Active
+1336,228,Lease,Combine Harvester,2025-12-03,12,678369.28,0.1393,Active
+1337,132,Installment Loan,Compact Tractor,2025-07-26,12,250463.27,0.1361,Closed
+1338,264,Lease,Sprayer,2023-01-23,60,256443.96,0.1493,Active
+1339,97,Lease,Compact Tractor,2025-04-15,60,141791.33,0.1212,Active
+1340,288,Lease,Wheel Loader,2024-04-13,36,499141.06,0.1266,Active
+1341,95,Lease,Sprayer,2025-08-01,36,104978.08,0.1235,Active
+1342,217,Installment Loan,Planter,2023-12-08,48,150541.69,0.1251,Active
+1343,190,Installment Loan,Tractor,2025-06-23,48,182143.51,0.1113,Active
+1344,59,Installment Loan,Tractor,2023-02-25,36,92156.38,0.119,Active
+1345,40,Installment Loan,Compact Tractor,2025-03-03,60,169981.44,0.1303,Active
+1346,218,Installment Loan,Mower,2024-05-07,60,168085.82,0.1048,Active
+1347,246,Installment Loan,Planter,2024-11-16,48,219280.41,0.1267,Active
+1348,19,Installment Loan,Sprayer,2023-04-03,36,646354.63,0.0949,Closed
+1349,159,Installment Loan,Tractor,2024-08-17,36,50000,0.1211,Active
+1350,154,Installment Loan,Mower,2025-11-25,60,123796.84,0.1121,Active
+1351,241,Installment Loan,Sprayer,2025-04-09,36,83757.21,0.1061,Active
+1352,168,Lease,Combine Harvester,2023-02-08,36,394965.86,0.0982,Closed
+1353,123,Lease,Sprayer,2024-08-07,60,256344.83,0.1171,Active
+1354,142,Installment Loan,Backhoe,2025-04-02,48,188523.7,0.0919,Active
+1355,2,Lease,Combine Harvester,2024-01-20,36,231317.56,0.0903,Active
+1356,231,Installment Loan,Sprayer,2025-06-22,60,572109.32,0.1078,Active
+1357,16,Lease,Excavator,2025-12-19,24,260072.74,0.126,Active
+1358,263,Installment Loan,Excavator,2023-02-17,24,116585.72,0.1613,Closed
+1359,120,Lease,Wheel Loader,2024-09-22,48,120185.56,0.1172,Active
+1360,172,Lease,Planter,2024-04-03,36,238160.74,0.1164,Active
+1361,44,Installment Loan,Tractor,2025-01-01,36,900000,0.1495,Active
+1362,253,Lease,Tractor,2023-07-28,36,134630.46,0.1301,Closed
+1363,251,Installment Loan,Combine Harvester,2026-01-17,48,255604.08,0.1006,Active
+1364,100,Installment Loan,Mower,2026-06-07,12,115782.66,0.1481,Active
+1365,138,Installment Loan,Wheel Loader,2025-12-01,12,51708.81,0.1295,Active
+1366,86,Installment Loan,Tractor,2023-06-04,36,232431.42,0.156,Closed
+1367,292,Installment Loan,Backhoe,2023-03-09,60,491632.2,0.1494,Active
+1368,23,Installment Loan,Compact Tractor,2026-04-16,36,267356.49,0.0923,Active
+1369,180,Installment Loan,Combine Harvester,2025-05-06,36,183228.47,0.1258,Active
+1370,17,Lease,Excavator,2025-04-13,60,129549.55,0.167,Active
+1371,155,Installment Loan,Planter,2023-09-28,36,166514.11,0.1011,Closed
+1372,206,Installment Loan,Planter,2025-09-21,12,97700.99,0.0968,Closed
+1373,109,Installment Loan,Planter,2026-05-22,48,67745.48,0.1095,Active
+1374,92,Installment Loan,Excavator,2024-09-07,60,144149.38,0.1444,Active
+1375,34,Installment Loan,Sprayer,2025-12-04,36,73985.5,0.1145,Active
+1376,29,Installment Loan,Planter,2025-06-04,36,360034.72,0.1273,Active
+1377,92,Installment Loan,Wheel Loader,2023-11-09,36,126337.96,0.1438,Active
+1378,36,Lease,Mower,2026-06-16,48,340337.78,0.1449,Active
+1379,39,Lease,Sprayer,2026-01-03,36,145634.89,0.1075,Active
+1380,107,Installment Loan,Planter,2023-03-20,36,258386.03,0.1673,Closed
+1381,149,Lease,Backhoe,2024-11-21,36,133750.65,0.1309,Active
+1382,278,Installment Loan,Tractor,2023-08-24,24,142471.01,0.1005,Closed
+1383,288,Installment Loan,Wheel Loader,2023-08-01,36,132793.74,0.1123,Closed
+1384,151,Installment Loan,Mower,2023-06-26,36,130844.73,0.099,Closed
+1385,65,Installment Loan,Tractor,2026-05-22,12,125009.1,0.1652,Active
+1386,45,Installment Loan,Mower,2024-04-18,12,206034.56,0.1358,Closed
+1387,115,Installment Loan,Planter,2023-03-01,24,128948.48,0.0923,Closed
+1388,121,Lease,Combine Harvester,2025-08-16,24,122896.92,0.1045,Active
+1389,16,Installment Loan,Excavator,2023-01-30,60,91002.51,0.115,Active
+1390,281,Lease,Backhoe,2024-01-31,48,302019.54,0.1371,Active
+1391,65,Lease,Combine Harvester,2025-08-13,12,900000,0.1809,Closed
+1392,88,Installment Loan,Planter,2025-05-22,24,118821.97,0.1403,Active
+1393,257,Installment Loan,Tractor,2024-10-20,36,158296.4,0.1168,Active
+1394,146,Installment Loan,Sprayer,2025-05-08,60,259625.09,0.1101,Active
+1395,107,Lease,Tractor,2026-04-11,24,103261.28,0.1737,Active
+1396,22,Lease,Combine Harvester,2023-04-24,60,126688.88,0.167,Active
+1397,29,Installment Loan,Planter,2025-08-23,36,110460.99,0.1185,Active
+1398,232,Installment Loan,Mower,2024-09-25,36,299395.91,0.1645,Active
+1399,85,Installment Loan,Mower,2023-06-06,24,140371.46,0.1635,Closed
+1400,133,Lease,Wheel Loader,2025-07-14,36,466259.49,0.1078,Active
+1401,212,Installment Loan,Tractor,2023-11-28,36,50000,0.1406,Active
+1402,19,Installment Loan,Combine Harvester,2023-04-25,36,152654.58,0.0971,Closed
+1403,221,Lease,Mower,2026-06-25,36,125473.11,0.1034,Active
+1404,154,Installment Loan,Mower,2025-11-18,36,156732.33,0.1145,Active
+1405,281,Installment Loan,Excavator,2023-10-17,36,418043.58,0.1373,Closed
+1406,165,Lease,Wheel Loader,2023-03-03,12,141761.59,0.1132,Closed
+1407,294,Installment Loan,Sprayer,2026-06-07,48,316851.65,0.0985,Active
+1408,253,Lease,Sprayer,2023-08-10,36,203576.8,0.1308,Closed
+1409,133,Lease,Excavator,2023-12-26,48,199000.14,0.1001,Active
+1410,297,Lease,Combine Harvester,2024-08-05,36,222872.66,0.1235,Active
+1411,259,Lease,Planter,2024-05-08,12,324476.59,0.126,Closed
+1412,105,Installment Loan,Backhoe,2026-01-29,24,518167.27,0.0972,Active
+1413,264,Installment Loan,Sprayer,2024-04-25,36,201123.87,0.1502,Active
+1414,267,Lease,Combine Harvester,2024-04-17,48,317349.25,0.1235,Active
+1415,269,Installment Loan,Sprayer,2025-04-09,12,165444.5,0.1298,Closed
+1416,241,Installment Loan,Combine Harvester,2023-04-30,60,196813.53,0.093,Active
+1417,196,Installment Loan,Sprayer,2025-05-24,12,545603.4,0.0912,Closed
+1418,1,Installment Loan,Excavator,2023-02-23,24,300463.83,0.1445,Closed
+1419,93,Installment Loan,Sprayer,2025-04-28,24,380323.39,0.1875,Active
+1420,286,Installment Loan,Tractor,2023-01-28,36,57691.51,0.0981,Closed
+1421,159,Installment Loan,Combine Harvester,2026-05-14,48,405093.98,0.1122,Active
+1422,65,Lease,Combine Harvester,2023-09-11,12,499385.03,0.1876,Closed
+1423,84,Installment Loan,Planter,2025-04-16,36,368394.79,0.1543,Active
+1424,111,Installment Loan,Combine Harvester,2025-03-09,60,166386.38,0.1411,Active
+1425,294,Installment Loan,Combine Harvester,2026-04-24,24,198553.34,0.0991,Active
+1426,285,Installment Loan,Wheel Loader,2025-08-06,36,171220.25,0.1449,Active
+1427,282,Installment Loan,Excavator,2023-11-13,12,314675.07,0.1037,Closed
+1428,267,Installment Loan,Planter,2024-07-21,60,483996.22,0.1122,Active
+1429,129,Lease,Wheel Loader,2025-10-19,60,207259.24,0.126,Active
+1430,187,Installment Loan,Sprayer,2025-01-11,48,229612.57,0.1275,Active
+1431,87,Installment Loan,Combine Harvester,2026-05-14,12,216153.99,0.1066,Active
+1432,191,Installment Loan,Tractor,2025-04-05,60,62830.68,0.1336,Active
+1433,168,Installment Loan,Planter,2023-08-24,48,129449.95,0.1018,Active
+1434,191,Installment Loan,Combine Harvester,2025-06-11,12,78109.13,0.1534,Closed
+1435,65,Lease,Tractor,2023-04-24,36,205525.1,0.1808,Closed
+1436,136,Installment Loan,Mower,2023-08-05,48,180875.45,0.1013,Active
+1437,33,Installment Loan,Wheel Loader,2026-02-20,60,255445.81,0.1157,Active
+1438,86,Installment Loan,Tractor,2025-10-10,60,346520.03,0.1433,Active
+1439,266,Lease,Compact Tractor,2023-05-11,12,284693.39,0.1068,Closed
+1440,236,Installment Loan,Planter,2025-10-25,48,362448.96,0.127,Active
+1441,210,Installment Loan,Sprayer,2025-02-05,12,133454.64,0.107,Closed
+1442,93,Installment Loan,Combine Harvester,2024-12-20,60,227996.14,0.1634,Active
+1443,43,Installment Loan,Excavator,2025-12-06,12,383938.77,0.1238,Active
+1444,74,Lease,Tractor,2023-03-12,36,368485.51,0.0961,Closed
+1445,113,Lease,Tractor,2025-06-11,12,218991.01,0.1384,Closed
+1446,86,Installment Loan,Combine Harvester,2023-11-02,12,87906.32,0.1553,Closed
+1447,42,Installment Loan,Wheel Loader,2026-06-06,24,96007.67,0.0951,Active
+1448,21,Installment Loan,Combine Harvester,2024-10-19,48,212040.55,0.1521,Active
+1449,236,Installment Loan,Sprayer,2023-01-10,60,210353.42,0.118,Active
+1450,299,Installment Loan,Sprayer,2026-05-29,36,199880.99,0.1157,Active
+1451,22,Installment Loan,Planter,2023-11-08,12,254888.26,0.1691,Closed
+1452,7,Installment Loan,Excavator,2023-09-14,24,406748.52,0.1289,Closed
+1453,99,Lease,Compact Tractor,2023-12-07,48,217172.15,0.0904,Active
+1454,158,Lease,Combine Harvester,2025-06-26,36,181937.19,0.1016,Active
+1455,6,Installment Loan,Combine Harvester,2024-03-05,24,385191.72,0.1029,Closed
+1456,276,Lease,Excavator,2026-02-11,12,188111.38,0.1797,Active
+1457,211,Installment Loan,Planter,2024-04-11,60,142865.82,0.1191,Active
+1458,30,Lease,Combine Harvester,2024-06-18,24,201869.02,0.1739,Closed
+1459,70,Lease,Sprayer,2024-10-09,48,55245.92,0.1034,Active
+1460,187,Installment Loan,Sprayer,2024-03-01,48,189130.38,0.1277,Active
+1461,200,Lease,Tractor,2024-11-19,36,121420.16,0.0976,Active
+1462,108,Installment Loan,Combine Harvester,2024-04-22,48,146340.56,0.1146,Active
+1463,69,Installment Loan,Sprayer,2023-03-22,36,246089.84,0.1232,Closed
+1464,109,Installment Loan,Combine Harvester,2025-04-14,60,52502.21,0.1095,Active
+1465,256,Installment Loan,Compact Tractor,2024-09-21,12,126101.59,0.0972,Closed
+1466,119,Installment Loan,Planter,2026-03-27,12,390229.66,0.1264,Active
+1467,165,Installment Loan,Excavator,2024-01-14,12,196837.96,0.1215,Closed
+1468,123,Installment Loan,Combine Harvester,2024-05-10,12,146918.48,0.1165,Closed
+1469,168,Lease,Planter,2025-03-03,12,326233.09,0.105,Closed
+1470,97,Installment Loan,Mower,2026-01-10,48,171117.49,0.1108,Active
+1471,161,Installment Loan,Wheel Loader,2026-05-04,60,150657.62,0.0928,Active
+1472,169,Installment Loan,Wheel Loader,2024-05-09,24,333239.61,0.1026,Closed
+1473,24,Installment Loan,Sprayer,2023-01-08,36,303890.57,0.115,Closed
+1474,66,Installment Loan,Compact Tractor,2024-10-29,12,285373.75,0.1196,Closed
+1475,169,Lease,Wheel Loader,2024-02-10,60,72425.91,0.1008,Active
+1476,279,Installment Loan,Combine Harvester,2023-02-26,12,130947.48,0.1154,Closed
+1477,282,Installment Loan,Excavator,2026-05-03,48,195405.97,0.0922,Active
+1478,159,Installment Loan,Sprayer,2025-12-20,24,144363.49,0.1273,Active
+1479,110,Installment Loan,Planter,2023-12-31,36,311467.09,0.0928,Active
+1480,33,Installment Loan,Excavator,2024-01-31,36,430624.5,0.1115,Active
+1481,9,Installment Loan,Sprayer,2023-12-01,36,116662.51,0.1033,Active
+1482,292,Installment Loan,Backhoe,2023-08-31,36,164282.11,0.1378,Closed
+1483,166,Installment Loan,Backhoe,2025-08-21,48,60046.9,0.1747,Active
+1484,257,Installment Loan,Tractor,2024-08-18,24,141770.23,0.1176,Closed
+1485,289,Lease,Excavator,2024-10-17,48,332425.12,0.1808,Active
+1486,234,Lease,Tractor,2025-02-12,36,161168.35,0.1485,Active
+1487,168,Lease,Sprayer,2025-09-05,24,123123.62,0.0932,Active
+1488,188,Lease,Sprayer,2024-11-07,36,197494.32,0.1114,Active
+1489,123,Installment Loan,Planter,2025-03-05,36,180456.73,0.1214,Active
+1490,47,Lease,Wheel Loader,2026-03-14,60,325475.17,0.1599,Active
+1491,82,Installment Loan,Mower,2025-08-18,24,131424.08,0.1042,Active
+1492,144,Installment Loan,Tractor,2024-11-19,12,196933.15,0.1352,Closed
+1493,259,Installment Loan,Sprayer,2024-05-02,60,199476.28,0.1101,Active
+1494,245,Installment Loan,Mower,2025-05-27,24,69227.29,0.136,Active
+1495,265,Lease,Compact Tractor,2023-04-16,36,156110.1,0.0963,Closed
+1496,225,Lease,Combine Harvester,2025-07-08,48,398384.24,0.1219,Active
+1497,166,Lease,Excavator,2023-10-13,48,215228.19,0.1634,Active
+1498,49,Installment Loan,Combine Harvester,2025-10-24,36,137698.86,0.1113,Active
+1499,296,Installment Loan,Planter,2023-12-15,36,210135.01,0.1479,Active
+1500,88,Installment Loan,Tractor,2026-06-16,60,170248.01,0.1498,Active
+1501,295,Lease,Combine Harvester,2024-10-10,36,52712.82,0.1134,Active
+1502,11,Installment Loan,Sprayer,2024-11-12,12,284715.56,0.1034,Closed
+1503,202,Installment Loan,Combine Harvester,2025-02-14,12,300163.45,0.113,Closed
+1504,81,Lease,Sprayer,2026-06-02,60,96902.29,0.1603,Active
+1505,149,Installment Loan,Wheel Loader,2023-03-03,12,64548.85,0.1481,Closed
+1506,161,Lease,Excavator,2025-05-29,60,734326.22,0.0906,Active
+1507,214,Installment Loan,Excavator,2024-02-21,12,208617.94,0.1181,Closed
+1508,249,Installment Loan,Sprayer,2026-03-25,60,456563.34,0.0939,Active
+1509,254,Installment Loan,Mower,2025-07-30,12,214160.12,0.172,Closed
+1510,70,Installment Loan,Planter,2023-12-10,48,147940.07,0.1002,Active
+1511,45,Installment Loan,Mower,2025-09-15,60,397567.05,0.1586,Active
+1512,271,Installment Loan,Sprayer,2023-08-10,24,231664.55,0.1223,Closed
+1513,89,Lease,Planter,2025-03-07,12,307933.9,0.0949,Closed
+1514,49,Lease,Sprayer,2024-01-17,48,117257.0,0.1273,Active
+1515,32,Installment Loan,Wheel Loader,2024-08-27,12,221375.94,0.1149,Closed
+1516,194,Installment Loan,Excavator,2024-01-24,60,317238.28,0.1208,Active
+1517,140,Lease,Backhoe,2023-11-17,24,188877.49,0.1492,Closed
+1518,126,Installment Loan,Backhoe,2023-04-14,24,393730.25,0.1343,Closed
+1519,244,Installment Loan,Mower,2024-05-19,60,56444.54,0.1445,Active
+1520,211,Installment Loan,Planter,2025-12-13,36,408342.29,0.1182,Active
+1521,281,Installment Loan,Excavator,2025-05-24,48,119177.75,0.149,Active
+1522,187,Installment Loan,Sprayer,2024-02-24,60,174838.89,0.117,Active
+1523,241,Lease,Planter,2025-07-22,24,310515.72,0.1045,Active
+1524,284,Installment Loan,Excavator,2025-07-31,12,133378.83,0.1242,Closed
+1525,115,Installment Loan,Sprayer,2025-08-26,12,194616.61,0.1077,Closed
+1526,273,Installment Loan,Mower,2026-06-13,60,209157.89,0.1208,Active
+1527,240,Installment Loan,Tractor,2024-09-12,60,127713.32,0.1103,Active
+1528,225,Installment Loan,Tractor,2023-04-15,60,886258.59,0.1142,Active
+1529,68,Installment Loan,Excavator,2025-01-11,24,351721.05,0.0974,Active
+1530,225,Installment Loan,Sprayer,2025-10-23,24,531830.5,0.1275,Active
+1531,126,Lease,Excavator,2024-06-16,12,480451.1,0.1325,Closed
+1532,10,Installment Loan,Wheel Loader,2025-03-19,24,71011.64,0.1022,Active
+1533,152,Installment Loan,Sprayer,2025-09-29,36,109402.73,0.1001,Active
+1534,192,Installment Loan,Combine Harvester,2025-05-11,60,182894.02,0.1615,Active
+1535,123,Installment Loan,Planter,2025-01-10,24,144363.42,0.1289,Active
+1536,163,Lease,Tractor,2023-04-20,60,110524.93,0.1101,Active
+1537,115,Installment Loan,Sprayer,2025-01-30,60,187860.27,0.1021,Active
+1538,77,Installment Loan,Excavator,2023-11-25,24,148788.11,0.0966,Closed
+1539,53,Installment Loan,Tractor,2023-05-31,24,235325.04,0.1106,Closed
+1540,8,Installment Loan,Tractor,2023-02-01,36,226949.63,0.1875,Closed
+1541,223,Installment Loan,Combine Harvester,2024-10-30,48,554020.4,0.1847,Active
+1542,55,Installment Loan,Sprayer,2025-02-25,36,75197.21,0.1112,Active
+1543,235,Lease,Tractor,2024-10-26,60,365974.68,0.1006,Active
+1544,245,Lease,Compact Tractor,2025-09-12,12,138055.25,0.1435,Closed
+1545,6,Installment Loan,Combine Harvester,2025-07-09,24,177310.2,0.0926,Active
+1546,34,Lease,Sprayer,2026-04-15,12,177954.33,0.1271,Active
+1547,297,Lease,Combine Harvester,2023-02-07,24,53689.52,0.116,Closed
+1548,218,Installment Loan,Compact Tractor,2025-06-27,60,231321.63,0.1068,Active
+1549,128,Installment Loan,Sprayer,2025-07-23,12,147800.92,0.163,Closed
+1550,110,Lease,Tractor,2024-04-28,60,188495.52,0.0909,Active
+1551,281,Lease,Wheel Loader,2025-02-20,36,341485.01,0.152,Active
+1552,275,Installment Loan,Excavator,2023-01-13,12,212606.44,0.1157,Closed
+1553,300,Lease,Compact Tractor,2024-07-02,36,334524.87,0.1255,Active
+1554,124,Installment Loan,Planter,2026-02-28,24,155580.05,0.181,Active
+1555,234,Installment Loan,Sprayer,2025-05-21,36,70070.41,0.1578,Active
+1556,109,Installment Loan,Sprayer,2024-03-18,24,181081.32,0.0929,Closed
+1557,167,Installment Loan,Sprayer,2023-02-25,60,393550.24,0.1199,Active
+1558,215,Lease,Planter,2025-12-13,60,197784.38,0.1079,Active
+1559,70,Lease,Tractor,2023-03-07,60,480074.65,0.1043,Active
+1560,34,Installment Loan,Combine Harvester,2023-08-30,48,98183.49,0.1172,Active
+1561,180,Installment Loan,Tractor,2023-08-28,24,131418.74,0.1111,Closed
+1562,138,Lease,Backhoe,2023-08-09,60,211122.05,0.1201,Active
+1563,39,Installment Loan,Planter,2024-12-27,48,318679.02,0.1027,Active
+1564,249,Installment Loan,Tractor,2023-02-17,48,399158.17,0.107,Active
+1565,254,Installment Loan,Compact Tractor,2026-02-20,60,296659.89,0.173,Active
+1566,241,Installment Loan,Sprayer,2023-04-13,60,414195.03,0.1004,Active
+1567,93,Installment Loan,Planter,2026-03-26,24,84331.64,0.1826,Active
+1568,49,Installment Loan,Planter,2024-08-07,48,191751.44,0.1176,Active
+1569,162,Installment Loan,Compact Tractor,2023-03-12,60,167444.37,0.1342,Active
+1570,145,Lease,Combine Harvester,2025-01-16,12,318373.0,0.121,Closed
+1571,123,Installment Loan,Sprayer,2024-04-29,60,414768.54,0.1156,Active
+1572,287,Installment Loan,Sprayer,2023-04-15,12,76557.8,0.0904,Closed
+1573,48,Installment Loan,Tractor,2025-07-10,48,133679.01,0.0906,Active
+1574,40,Lease,Compact Tractor,2024-09-18,24,236582.48,0.1407,Closed
+1575,191,Installment Loan,Combine Harvester,2025-04-26,48,177513.97,0.1574,Active
+1576,39,Installment Loan,Planter,2024-01-21,36,405839.17,0.0924,Active
+1577,120,Installment Loan,Backhoe,2025-08-30,24,320066.39,0.1197,Active
+1578,30,Installment Loan,Combine Harvester,2026-02-13,24,458408.41,0.1755,Active
+1579,252,Installment Loan,Combine Harvester,2023-03-18,12,450632.1,0.1299,Closed
+1580,213,Lease,Mower,2025-04-08,24,280523.1,0.1267,Active
+1581,193,Lease,Tractor,2024-10-14,36,108157.47,0.1484,Active
+1582,138,Lease,Wheel Loader,2024-01-05,48,461540.31,0.1263,Active
+1583,229,Installment Loan,Planter,2025-04-06,60,153427.59,0.1035,Active
+1584,254,Installment Loan,Compact Tractor,2025-09-10,48,168841.03,0.1773,Active
+1585,232,Lease,Mower,2023-03-04,36,132903.79,0.1889,Closed
+1586,174,Lease,Planter,2024-06-20,24,112676.2,0.1264,Closed
+1587,108,Installment Loan,Sprayer,2024-01-17,60,111997.21,0.1105,Active
+1588,37,Lease,Wheel Loader,2025-03-19,60,302770.62,0.1125,Active
+1589,63,Installment Loan,Mower,2026-01-17,12,82731.43,0.1061,Active
+1590,43,Lease,Wheel Loader,2023-02-12,60,512066.28,0.1217,Active
+1591,181,Lease,Combine Harvester,2023-05-07,48,68745.09,0.0976,Active
+1592,215,Installment Loan,Planter,2024-10-01,60,187361.44,0.0945,Active
+1593,23,Lease,Compact Tractor,2025-04-04,36,467463.55,0.1053,Active
+1594,35,Installment Loan,Mower,2026-03-30,60,188287.8,0.1033,Active
+1595,118,Installment Loan,Combine Harvester,2024-05-06,36,147853.52,0.117,Active
+1596,109,Installment Loan,Planter,2025-02-17,24,149159.39,0.1024,Active
+1597,231,Installment Loan,Sprayer,2025-01-07,36,157056.66,0.0983,Active
+1598,237,Installment Loan,Planter,2023-06-28,12,230125.47,0.1814,Closed
+1599,97,Installment Loan,Compact Tractor,2023-06-16,60,174657.56,0.1245,Active
+1600,132,Installment Loan,Compact Tractor,2023-03-14,36,90478.41,0.1323,Active
+1601,166,Installment Loan,Excavator,2025-12-31,48,421605.86,0.1837,Active
+1602,111,Installment Loan,Combine Harvester,2023-11-20,60,105224.49,0.1592,Active
+1603,50,Lease,Sprayer,2024-07-23,36,105212.58,0.1085,Active
+1604,53,Installment Loan,Planter,2023-08-15,12,154349.95,0.1231,Closed
+1605,62,Lease,Excavator,2023-03-30,60,520084.82,0.1495,Active
+1606,11,Installment Loan,Sprayer,2026-01-28,60,145693.12,0.1048,Active
+1607,230,Lease,Wheel Loader,2024-09-18,12,131357.19,0.1081,Closed
+1608,262,Installment Loan,Compact Tractor,2023-10-03,36,516390.22,0.1258,Closed
+1609,191,Lease,Tractor,2023-02-17,12,53913.86,0.1402,Closed
+1610,280,Installment Loan,Excavator,2023-04-02,12,103340.57,0.1857,Active
+1611,137,Lease,Wheel Loader,2026-05-12,12,69882.43,0.1387,Active
+1612,196,Installment Loan,Combine Harvester,2023-02-09,24,205717.56,0.1059,Closed
+1613,229,Installment Loan,Combine Harvester,2025-10-25,24,253517.38,0.0974,Active
+1614,54,Lease,Excavator,2026-06-19,12,559157.8,0.1239,Active
+1615,45,Installment Loan,Mower,2025-11-06,24,107545.95,0.1456,Active
+1616,183,Installment Loan,Wheel Loader,2023-07-10,48,264082.25,0.1163,Active
+1617,68,Installment Loan,Excavator,2026-04-08,60,286282.09,0.1043,Active
+1618,131,Installment Loan,Planter,2023-12-23,48,107597.67,0.1193,Active
+1619,125,Installment Loan,Backhoe,2023-12-25,12,159866.3,0.1219,Closed
+1620,290,Lease,Mower,2023-10-13,12,128528.22,0.1307,Closed
+1621,41,Lease,Tractor,2025-06-09,60,246590.13,0.161,Active
+1622,14,Lease,Planter,2023-06-02,48,296544.14,0.1895,Active
+1623,142,Lease,Backhoe,2025-11-20,36,110502.08,0.1045,Active
+1624,158,Installment Loan,Combine Harvester,2025-11-20,24,50000,0.0908,Active
+1625,259,Installment Loan,Tractor,2023-02-16,48,107805.21,0.1111,Active
+1626,66,Installment Loan,Mower,2023-04-04,12,353119.23,0.1262,Active
+1627,21,Installment Loan,Planter,2025-09-25,12,421964.68,0.1569,Closed
+1628,255,Lease,Sprayer,2025-12-18,36,240063.71,0.0912,Active
+1629,65,Lease,Tractor,2025-08-05,24,257897.89,0.179,Active
+1630,84,Installment Loan,Planter,2024-10-30,12,198234.0,0.146,Closed
+1631,31,Lease,Tractor,2025-02-05,12,175910.05,0.1419,Closed
+1632,139,Installment Loan,Backhoe,2024-03-09,36,327853.14,0.1199,Active
+1633,160,Installment Loan,Sprayer,2023-09-23,48,221808.14,0.1018,Active
+1634,266,Installment Loan,Compact Tractor,2023-02-18,60,480336.81,0.0974,Active
+1635,205,Installment Loan,Excavator,2024-11-06,36,439448.97,0.1239,Active
+1636,112,Installment Loan,Excavator,2024-10-12,48,89497.48,0.0916,Active
+1637,248,Installment Loan,Compact Tractor,2023-01-09,48,706826.19,0.1412,Active
+1638,159,Installment Loan,Sprayer,2023-03-09,60,104290.19,0.1129,Active
+1639,52,Installment Loan,Combine Harvester,2025-12-24,24,100658.67,0.1103,Active
+1640,36,Installment Loan,Mower,2026-05-25,24,50000,0.1435,Active
+1641,98,Installment Loan,Combine Harvester,2026-06-28,36,273515.46,0.1279,Active
+1642,27,Installment Loan,Sprayer,2023-12-31,36,226231.27,0.1223,Active
+1643,214,Installment Loan,Wheel Loader,2024-08-21,60,152801.1,0.1162,Active
+1644,287,Lease,Sprayer,2026-05-10,24,335025.86,0.0945,Active
+1645,165,Installment Loan,Excavator,2023-06-12,24,70366.03,0.1199,Closed
+1646,58,Installment Loan,Wheel Loader,2024-03-08,36,294517.46,0.1008,Active
+1647,131,Installment Loan,Sprayer,2026-04-15,36,175173.75,0.1107,Active
+1648,115,Installment Loan,Planter,2023-05-02,36,316958.18,0.0934,Closed
+1649,256,Lease,Mower,2024-11-27,36,213641.79,0.0998,Active
+1650,98,Installment Loan,Planter,2024-02-15,60,158061.56,0.1162,Active
+1651,123,Installment Loan,Sprayer,2026-04-14,48,61629.22,0.1294,Active
+1652,267,Installment Loan,Planter,2023-03-06,24,94527.77,0.1146,Active
+1653,143,Installment Loan,Compact Tractor,2025-10-09,48,145892.11,0.102,Active
+1654,231,Lease,Planter,2025-12-26,12,168319.65,0.0917,Active
+1655,263,Installment Loan,Excavator,2024-05-08,36,222275.63,0.1868,Active
+1656,289,Installment Loan,Backhoe,2024-08-14,12,244241.89,0.1748,Closed
+1657,227,Installment Loan,Mower,2025-08-21,36,63697.18,0.0992,Active
+1658,145,Installment Loan,Planter,2026-06-11,36,141564.19,0.113,Active
+1659,155,Lease,Tractor,2026-05-03,48,163355.06,0.0931,Active
+1660,126,Installment Loan,Excavator,2025-02-06,24,87138.87,0.1489,Active
+1661,231,Installment Loan,Combine Harvester,2023-08-16,36,136775.19,0.1,Closed
+1662,8,Installment Loan,Sprayer,2023-03-14,24,188357.51,0.1825,Closed
+1663,78,Installment Loan,Sprayer,2023-09-08,12,232562.96,0.0922,Closed
+1664,184,Installment Loan,Compact Tractor,2023-11-20,36,119891.73,0.0998,Active
+1665,205,Lease,Backhoe,2023-07-11,24,246279.43,0.1188,Closed
+1666,134,Lease,Planter,2024-02-05,60,181313.78,0.1269,Active
+1667,259,Installment Loan,Sprayer,2025-06-22,36,169851.32,0.1159,Active
+1668,235,Lease,Tractor,2023-10-05,60,248750.2,0.1068,Active
+1669,192,Installment Loan,Tractor,2023-07-14,24,139311.66,0.1769,Closed
+1670,202,Installment Loan,Sprayer,2023-11-29,12,683767.46,0.1194,Closed
+1671,218,Lease,Compact Tractor,2024-10-10,60,412476.64,0.1001,Active
+1672,215,Installment Loan,Planter,2024-08-12,24,72933.66,0.0944,Closed
+1673,252,Installment Loan,Planter,2024-04-21,36,80922.58,0.1205,Active
+1674,15,Installment Loan,Compact Tractor,2024-09-27,60,563687.65,0.0969,Active
+1675,43,Installment Loan,Backhoe,2024-01-24,60,410545.6,0.1175,Active
+1676,27,Lease,Sprayer,2025-05-04,48,510017.87,0.1187,Active
+1677,135,Installment Loan,Combine Harvester,2025-01-27,24,114409.17,0.1254,Active
+1678,55,Installment Loan,Tractor,2026-02-20,12,474463.13,0.1293,Active
+1679,205,Lease,Backhoe,2024-03-26,48,479763.94,0.1187,Active
+1680,189,Lease,Tractor,2023-09-22,60,368807.43,0.1764,Active
+1681,72,Installment Loan,Mower,2025-07-24,24,120671.1,0.1557,Active
+1682,223,Installment Loan,Planter,2024-08-29,24,159152.84,0.1847,Closed
+1683,92,Installment Loan,Wheel Loader,2023-05-31,36,126989.65,0.1547,Closed
+1684,175,Installment Loan,Excavator,2024-11-24,24,222970.51,0.1028,Active
+1685,130,Installment Loan,Sprayer,2025-08-03,24,426514.08,0.1158,Active
+1686,155,Installment Loan,Sprayer,2023-08-01,36,211279.21,0.0916,Closed
+1687,106,Installment Loan,Planter,2024-09-29,60,498424.97,0.0939,Active
+1688,222,Installment Loan,Combine Harvester,2025-09-07,36,146381.88,0.1878,Active
+1689,235,Installment Loan,Planter,2026-03-05,36,251099.24,0.1056,Active
+1690,37,Installment Loan,Excavator,2023-06-10,24,83007.21,0.1105,Closed
+1691,6,Lease,Tractor,2023-01-10,60,143030.45,0.0958,Active
+1692,228,Installment Loan,Tractor,2023-04-04,36,707234.52,0.1377,Closed
+1693,27,Lease,Sprayer,2024-09-16,48,154280.66,0.1265,Active
+1694,1,Installment Loan,Backhoe,2023-10-31,36,179800.53,0.1502,Closed
+1695,164,Lease,Tractor,2024-08-30,36,160729.57,0.1261,Active
+1696,247,Lease,Sprayer,2025-01-18,48,194381.29,0.1381,Active
+1697,92,Installment Loan,Wheel Loader,2025-10-15,48,281641.08,0.1457,Active
+1698,130,Installment Loan,Planter,2025-06-13,48,857805.74,0.112,Active
+1699,93,Lease,Sprayer,2024-04-13,60,265691.56,0.1672,Active
+1700,14,Installment Loan,Planter,2025-09-01,24,50000,0.1753,Active
+1701,87,Lease,Planter,2024-02-26,12,193557.6,0.0922,Closed
+1702,51,Installment Loan,Compact Tractor,2023-01-26,60,216662.2,0.1042,Active
+1703,228,Installment Loan,Combine Harvester,2024-06-22,24,184542.1,0.1519,Active
+1704,270,Installment Loan,Backhoe,2023-04-08,12,199889.34,0.1254,Closed
+1705,23,Installment Loan,Compact Tractor,2024-12-09,36,195406.21,0.1016,Active
+1706,283,Lease,Backhoe,2025-07-31,36,71339.51,0.1485,Active
+1707,271,Installment Loan,Tractor,2023-01-12,12,520260.84,0.1244,Closed
+1708,227,Lease,Compact Tractor,2024-09-25,48,275304.95,0.0958,Active
+1709,128,Installment Loan,Tractor,2024-03-22,12,266371.68,0.1732,Closed
+1710,147,Installment Loan,Mower,2026-01-13,48,196041.62,0.1432,Active
+1711,204,Installment Loan,Sprayer,2025-05-18,48,255724.81,0.0924,Active
+1712,151,Installment Loan,Compact Tractor,2024-06-20,24,50000,0.0963,Closed
+1713,299,Installment Loan,Combine Harvester,2024-03-26,24,387910.59,0.1198,Closed
+1714,222,Installment Loan,Sprayer,2024-02-14,48,108876.79,0.1624,Active
+1715,298,Installment Loan,Compact Tractor,2023-09-25,60,464195.1,0.0934,Active
+1716,6,Lease,Planter,2024-11-24,12,150197.51,0.1044,Closed
+1717,60,Installment Loan,Combine Harvester,2023-08-09,12,342336.89,0.1649,Closed
+1718,98,Installment Loan,Combine Harvester,2023-06-25,48,94333.51,0.1134,Active
+1719,293,Lease,Compact Tractor,2025-05-15,24,140669.32,0.1548,Active
+1720,105,Lease,Excavator,2023-09-18,48,106749.58,0.1059,Active
+1721,231,Installment Loan,Combine Harvester,2023-07-07,48,411913.27,0.0917,Active
+1722,113,Lease,Planter,2024-02-20,60,113839.62,0.1461,Active
+1723,267,Installment Loan,Combine Harvester,2025-10-26,36,214792.98,0.1126,Active
+1724,210,Installment Loan,Combine Harvester,2024-01-15,36,303770.23,0.1018,Active
+1725,292,Installment Loan,Wheel Loader,2026-06-10,24,240056.14,0.152,Active
+1726,23,Lease,Mower,2024-09-23,12,344724.74,0.0921,Active
+1727,257,Installment Loan,Tractor,2024-09-10,24,108216.59,0.1176,Closed
+1728,13,Installment Loan,Combine Harvester,2025-10-17,12,233697.94,0.1029,Closed
+1729,142,Installment Loan,Backhoe,2024-12-18,24,900000,0.1075,Active
+1730,201,Lease,Sprayer,2023-04-29,60,107022.35,0.1229,Active
+1731,12,Installment Loan,Wheel Loader,2023-05-11,12,170590.47,0.14,Closed
+1732,62,Installment Loan,Excavator,2024-10-17,36,456049.17,0.1358,Active
+1733,70,Lease,Combine Harvester,2024-11-22,60,50000,0.0903,Active
+1734,105,Lease,Excavator,2025-09-03,36,76068.3,0.1036,Active
+1735,105,Installment Loan,Backhoe,2023-03-02,60,187938.06,0.0999,Active
+1736,170,Installment Loan,Backhoe,2024-05-29,48,187915.95,0.1148,Active
+1737,92,Lease,Backhoe,2025-05-13,36,73371.42,0.1483,Active
+1738,165,Installment Loan,Wheel Loader,2025-05-22,36,102835.26,0.1283,Active
+1739,230,Installment Loan,Excavator,2023-06-29,12,213393.17,0.1069,Closed
+1740,38,Lease,Combine Harvester,2026-04-28,48,389669.82,0.1687,Active
+1741,250,Lease,Combine Harvester,2024-10-24,12,164563.02,0.1576,Active
+1742,232,Installment Loan,Compact Tractor,2024-12-14,12,142208.32,0.1768,Closed
+1743,250,Installment Loan,Tractor,2023-04-29,36,441233.0,0.1387,Closed
+1744,248,Installment Loan,Compact Tractor,2025-01-14,12,151179.15,0.1481,Closed
+1745,238,Lease,Wheel Loader,2025-06-19,48,207655.04,0.0973,Active
+1746,248,Installment Loan,Mower,2025-08-16,48,295097.55,0.1593,Active
+1747,280,Installment Loan,Wheel Loader,2023-09-09,60,221134.0,0.1782,Active
+1748,285,Installment Loan,Wheel Loader,2025-02-26,24,238761.3,0.1423,Active
+1749,173,Installment Loan,Backhoe,2024-03-07,36,225037.0,0.1593,Active
+1750,154,Installment Loan,Compact Tractor,2024-01-14,60,444806.6,0.1119,Active
+1751,207,Lease,Mower,2026-06-17,36,148825.96,0.121,Active
+1752,40,Lease,Mower,2026-03-29,12,359068.58,0.1476,Active
+1753,177,Installment Loan,Backhoe,2025-07-16,36,145579.71,0.1213,Active
+1754,266,Installment Loan,Mower,2024-08-01,12,106218.1,0.0907,Closed
+1755,174,Lease,Sprayer,2026-02-08,48,159879.08,0.1205,Active
+1756,97,Installment Loan,Compact Tractor,2025-03-15,60,61507.48,0.1102,Active
+1757,67,Installment Loan,Wheel Loader,2026-06-21,24,892370.64,0.1615,Active
+1758,280,Lease,Excavator,2023-10-30,48,212941.96,0.1765,Active
+1759,34,Installment Loan,Planter,2026-01-27,48,350619.4,0.1186,Active
+1760,212,Lease,Tractor,2026-02-15,24,336399.41,0.1336,Active
+1761,279,Installment Loan,Sprayer,2025-06-22,36,408081.1,0.1132,Active
+1762,147,Installment Loan,Compact Tractor,2025-05-11,36,264594.6,0.1369,Active
+1763,144,Installment Loan,Planter,2025-03-22,36,116072.17,0.1411,Active
+1764,137,Installment Loan,Wheel Loader,2023-01-27,60,230875.56,0.1494,Active
+1765,275,Installment Loan,Excavator,2023-02-18,36,653793.75,0.1151,Closed
+1766,252,Lease,Combine Harvester,2024-04-11,36,201657.55,0.1156,Active
+1767,199,Lease,Sprayer,2026-04-20,48,277199.37,0.1128,Active
+1768,95,Installment Loan,Planter,2023-06-02,12,200146.87,0.128,Closed
+1769,277,Lease,Combine Harvester,2025-02-23,24,720033.32,0.1246,Active
+1770,182,Lease,Combine Harvester,2025-10-16,12,152498.89,0.1062,Closed
+1771,210,Installment Loan,Tractor,2026-01-12,12,182670.71,0.0923,Active
+1772,12,Installment Loan,Excavator,2023-12-13,36,52400.43,0.1546,Active
+1773,8,Installment Loan,Combine Harvester,2023-03-10,60,431595.79,0.1713,Active
+1774,170,Lease,Backhoe,2024-03-10,12,176611.91,0.1176,Closed
+1775,279,Lease,Tractor,2024-09-15,36,357652.65,0.1129,Active
+1776,158,Lease,Combine Harvester,2023-03-23,24,105465.75,0.0968,Closed
+1777,45,Installment Loan,Compact Tractor,2024-05-20,24,153405.78,0.1387,Active
+1778,238,Installment Loan,Wheel Loader,2025-03-16,48,250533.98,0.1006,Active
+1779,199,Installment Loan,Planter,2024-12-12,48,273991.65,0.1251,Active
+1780,270,Installment Loan,Excavator,2025-11-13,24,100600.49,0.125,Active
+1781,118,Lease,Sprayer,2023-04-18,24,155358.67,0.1289,Closed
+1782,34,Installment Loan,Tractor,2024-12-02,48,337607.16,0.1219,Active
+1783,92,Installment Loan,Excavator,2025-02-15,24,275531.88,0.1352,Active
+1784,74,Installment Loan,Planter,2023-01-03,48,128620.51,0.0914,Active
+1785,50,Installment Loan,Sprayer,2026-03-07,36,420596.55,0.1021,Active
+1786,288,Installment Loan,Excavator,2023-12-11,36,318617.78,0.1218,Active
+1787,237,Lease,Tractor,2023-05-30,24,118332.89,0.172,Closed
+1788,223,Installment Loan,Tractor,2026-01-04,24,170181.34,0.1741,Active
+1789,38,Lease,Sprayer,2025-03-06,36,301352.5,0.1606,Active
+1790,215,Lease,Planter,2026-06-17,48,256674.1,0.1031,Active
+1791,218,Lease,Compact Tractor,2024-10-09,48,140329.97,0.1047,Active
+1792,270,Installment Loan,Backhoe,2024-10-02,36,56677.47,0.1145,Active
+1793,177,Installment Loan,Excavator,2023-10-02,12,190207.2,0.112,Closed
+1794,47,Installment Loan,Backhoe,2023-11-12,48,117974.56,0.1466,Active
+1795,208,Lease,Wheel Loader,2023-03-08,48,558801.46,0.1086,Active
+1796,138,Installment Loan,Backhoe,2023-04-22,36,127330.21,0.1224,Closed
+1797,258,Lease,Mower,2024-09-28,60,156091.02,0.1295,Active
+1798,273,Installment Loan,Compact Tractor,2023-05-28,24,326549.65,0.1177,Closed
+1799,146,Installment Loan,Sprayer,2024-11-08,24,570414.96,0.1241,Active
+1800,251,Installment Loan,Sprayer,2025-12-31,48,105607.28,0.0911,Active

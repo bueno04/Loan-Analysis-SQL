@@ -1,0 +1,3 @@
+product_type,contracts,financed_amount,outstanding_amount,overdue_amount,overdue_pct_of_outstanding
+Installment Loan,562,130067105.58,56949590.03,2906726.85,5.1
+Lease,238,56080035.64,27333416.35,1324346.61,4.85

@@ -1,0 +1,11 @@
+overdue_rank,customer_id,segment,state,credit_rating,contracts,overdue_amount,max_days_past_due,pct_of_total_overdue
+1,166,Construction,MT,D,5,307237.05,482,7.26
+2,280,Construction,SP,D,4,287783.6,1228,6.8
+3,222,Agriculture,MT,D,4,276028.9,992,6.52
+4,197,Agriculture,SP,D,1,264897.2,234,6.26
+5,187,Agriculture,MT,B,6,244265.52,487,5.77
+6,66,Landscaping,MS,B,5,188860.38,1092,4.46
+7,107,Agriculture,SP,D,4,188426.8,590,4.45
+8,228,Agriculture,SP,C,6,172790.16,969,4.08
+9,141,Agriculture,MT,A,1,140190.84,339,3.31
+10,143,Landscaping,SP,A,4,124077.35,1032,2.93

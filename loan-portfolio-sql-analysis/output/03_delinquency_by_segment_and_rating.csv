@@ -1,0 +1,13 @@
+segment,credit_rating,contracts,contracts_over_30_dpd,pct_contracts_over_30_dpd,overdue_amount
+Agriculture,A,152,5,3.29,193093.04
+Agriculture,B,172,18,10.47,767180.02
+Agriculture,C,71,12,16.9,543163.03
+Agriculture,D,60,8,13.33,1000707.63
+Construction,A,50,4,8.0,41986.47
+Construction,B,83,3,3.61,213200.35
+Construction,C,50,3,6.0,153539.15
+Construction,D,22,4,18.18,660676.02
+Landscaping,A,64,6,9.38,189330.62
+Landscaping,B,32,4,12.5,271703.37
+Landscaping,C,35,4,11.43,182898.67
+Landscaping,D,9,1,11.11,13595.09

@@ -1,0 +1,7 @@
+check_name,issues
+Duplicate payment records,15
+Payments without a matching installment,5
+Payments with missing or non-positive amount,4
+Installments paid above the amount due,8
+Contracts whose installment count differs from the term,3
+Payments dated before the contract origination,3
